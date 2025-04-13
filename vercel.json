@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/register.html" },
+    { "source": "/login", "destination": "/index.html" },
+    { "source": "/expenses", "destination": "/expenses.html" }
+  ],
+  "redirects": [
+    { "source": "/index.html", "destination": "/login", "permanent": true },
+    { "source": "/register.html", "destination": "/", "permanent": true },
+    { "source": "/expenses.html", "destination": "/expenses", "permanent": true }
+  ],
+  "cleanUrls": true
+}
